@@ -1,0 +1,33 @@
+{
+  "name": "defi-ai-agent",
+  "version": "1.0.0",
+  "description": "AI-powered DeFi transaction failure diagnosis agent using Claude",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "node server.js",
+    "demo": "node index.js --demo out-of-gas",
+    "demo:all": "node index.js --demo all",
+    "demo:batch": "node index.js --batch",
+    "example": "node examples/usage.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.37.0",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "defi",
+    "blockchain",
+    "ethereum",
+    "transaction",
+    "diagnosis",
+    "ai",
+    "claude",
+    "anthropic",
+    "web3"
+  ],
+  "license": "MIT"
+}
